@@ -35,7 +35,7 @@ function App() {
   return (
   <SafeAreaView>
     <View style={styles.container}>
-      <Image source={{uri: 'https://media.kommunity.com/communities/react-native-turkiye/20738/images-1.png'}} style={styles.image}></Image>
+      <Image source={{uri: 'https://wallpaperaccess.com/full/3949081.png'}} style={styles.image}></Image>
       <Text style={styles.text}>Sayaçmatik</Text>
       <Text style={styles.counterText}>Skor= {sayac}</Text>
       <Text style={styles.subtitle}>Sayacı değiştirmek için aşağıdaki butonlardan birine tıklayınız</Text>
@@ -50,6 +50,7 @@ function App() {
   </SafeAreaView>
   );
 }
+
 
 const styles = StyleSheet.create({
   buttonContainer: {
